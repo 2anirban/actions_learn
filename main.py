@@ -7,7 +7,7 @@ import uvicorn
 import os 
 
 assistant_id = config.assistant_id
-api_key = os.environ["OPENAI_API_KEY"]
+api_key = os.environ['OPENAI_API']
 
 client = OpenAI(api_key=api_key)
 
